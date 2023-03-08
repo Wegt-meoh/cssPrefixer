@@ -1,0 +1,38 @@
+= Css prefix
+:example-caption!:
+:source-highlighter: highlight.js
+:highlightjs-theme: a11y-light
+
+== Usage
+
+In index.js, modify *#targetFilePath#* and *#pre#* to your own.
+
+====
+```js
+include::./index.js[]
+```
+====
+
+== example
+
+.input
+====
+```css
+.test{
+    color:red
+}
+```
+====
+
+.output
+====
+```css
+.adoc .test{
+    color:red
+}
+```
+====
+
+== limitations
+
+Now it can not handle media query which *#block is nested#*, so it can not handle scss or sass.
