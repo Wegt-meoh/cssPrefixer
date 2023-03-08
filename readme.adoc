@@ -3,6 +3,8 @@
 :source-highlighter: highlight.js
 :highlightjs-theme: a11y-light
 
+It is mainly used to use class name prefixes to control CSS styles under class names to *#prevent style pollution#*。
+
 == Usage
 
 In index.js, modify *#targetFilePath#* and *#pre#* to your own.
